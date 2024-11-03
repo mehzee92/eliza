@@ -1,7 +1,6 @@
 node_modules
 /out
 
-.env
 concatenated-output.ts
 embedding-cache.json
 
@@ -32,3 +31,4 @@ timeline_cache.json
 
 *.sqlite
 characters/
+config.bat
