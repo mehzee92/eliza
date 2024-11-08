@@ -1,13 +1,14 @@
 node_modules
 /out
 
-.env
 concatenated-output.ts
 embedding-cache.json
 
 .DS_Store
 
 dist/
+# Allow models directory but ignore model files
+models/*.gguf
 
 cookies.json
 
@@ -32,3 +33,8 @@ timeline_cache.json
 
 *.sqlite
 characters/
+
+packages/core/src/providers/cache
+packages/core/src/providers/cache/*
+cache/*
+config.bat
