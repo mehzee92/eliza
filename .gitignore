@@ -1,7 +1,6 @@
 node_modules
 /out
 
-.env
 concatenated-output.ts
 embedding-cache.json
 
@@ -36,3 +35,4 @@ characters/
 packages/core/src/providers/cache
 packages/core/src/providers/cache/*
 cache/*
+config.bat
