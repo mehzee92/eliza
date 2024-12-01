@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start --no-open",
-    "dev": "docusaurus start --port 3002 --no-open",
-    "build": "docusaurus build",
+    "start": "node init && docusaurus start --no-open",
+    "dev": "node init && docusaurus start --port 3002 --no-open",
+    "build": "node init && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
