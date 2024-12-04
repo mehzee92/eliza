@@ -3,6 +3,9 @@ import tseslint from "@typescript-eslint/eslint-plugin";
 import typescript from "@typescript-eslint/parser";
 import prettier from "eslint-config-prettier";
 import vitest from "@vitest/eslint-plugin"; // Add Vitest plugin
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default [
     // JavaScript and TypeScript files
